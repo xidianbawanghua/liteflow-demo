@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="liteflow-demo-web:war">
+    <output-path>$PROJECT_DIR$/liteflow-demo-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>liteflow-demo-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="plat.war">
+      <element id="artifact" artifact-name="liteflow-demo-web:war exploded" />
+    </root>
+  </artifact>
+</component>

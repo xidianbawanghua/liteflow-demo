@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="liteflow-demo-rpc" />
+        <module name="liteflow-demo-common" />
+        <module name="liteflow-demo-web" />
+        <module name="liteflow-demo-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="liteflow-demo" target="8" />
+      <module name="liteflow-demo-common" target="8" />
+      <module name="liteflow-demo-rpc" target="8" />
+      <module name="liteflow-demo-service" target="8" />
+      <module name="liteflow-demo-web" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="liteflow-demo-common" options="-parameters" />
+      <module name="liteflow-demo-rpc" options="-parameters" />
+      <module name="liteflow-demo-service" options="-parameters" />
+      <module name="liteflow-demo-web" options="-parameters" />
+    </option>
+  </component>
+</project>
