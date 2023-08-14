@@ -2,4 +2,23 @@
     <chain name="chain1">
         THEN(a, b, c);
     </chain>
+
+    <chain name="chain2">
+        WHEN(a, b, c);
+    </chain>
+
+    <chain name="switchChain">
+        SWITCH(aSwitch).to(b,c);
+    </chain>
+
+    <chain name="ifChain">
+        IF(xIf, a, b);
+    </chain>
+
+    <chain name="exceptionChain">
+        CATCH(
+            THEN(aException,b)
+        ).DO(cCatch)
+    </chain>
+
 </flow>
