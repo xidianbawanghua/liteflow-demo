@@ -17,7 +17,7 @@ public class LiteFlowTest {
 
     @Test
     public void testLiteFlowConfig() {
-        LiteflowResponse response = flowExecutor.execute2Resp("chain1", "arg");
+        LiteflowResponse response = flowExecutor.execute2Resp("complexChain", "arg");
         Assert.assertTrue(response.isSuccess());
     }
 
