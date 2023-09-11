@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c122b750-b1ba-4197-8ed6-319d4053a4ab" name="Default Changelist" comment="" />
+    <list default="true" id="c122b750-b1ba-4197-8ed6-319d4053a4ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/liteflow-demo-service/src/main/java/org/example/service/alghrithm/BinaryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/liteflow-demo-service/src/main/java/org/example/service/alghrithm/binaryTree/ConstructBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liteflow-demo-service/src/main/java/org/example/service/alghrithm/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/liteflow-demo-service/src/main/java/org/example/service/alghrithm/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liteflow-demo-service/src/main/java/org/example/service/alghrithm/binaryTree/BinaryTreePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/liteflow-demo-service/src/main/java/org/example/service/alghrithm/binaryTree/BinaryTreePaths.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +18,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -30,10 +38,12 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="2O2Jex4rUMUhTv1mcP2KKpbCuRc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -42,16 +52,72 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="JUnit.LiteFlowTest.testLiteFlowConfig">
+  <component name="RunManager" selected="Application.BinaryTreePaths">
+    <configuration name="BinaryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.service.alghrithm.BinaryTest" />
+      <module name="liteflow-demo-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.service.alghrithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.service.alghrithm.binaryTree.BinaryTreePaths" />
+      <module name="liteflow-demo-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.service.alghrithm.binaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.service.alghrithm.binaryTree.ConstructBinaryTree" />
+      <module name="liteflow-demo-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.service.alghrithm.binaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElTest.testEl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="liteflow-demo-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.web" />
+      <option name="MAIN_CLASS_NAME" value="org.example.web.ElTest" />
+      <option name="METHOD_NAME" value="testEl" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LiteFlowTest.testLiteFlowConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="liteflow-demo-web" />
       <extension name="coverage">
@@ -68,42 +134,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LittleTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="liteflow-demo-web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.web" />
-      <option name="MAIN_CLASS_NAME" value="org.example.web.LittleTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="liteflow-demo-web" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="liteflow-demo-web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.PlatApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PlatBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="liteflow-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.platbase.PlatBaseApplication" />
@@ -113,12 +143,16 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreePaths" />
+        <item itemvalue="Application.BinaryTest" />
+        <item itemvalue="Application.ConstructBinaryTree" />
         <item itemvalue="JUnit.LiteFlowTest.testLiteFlowConfig" />
-        <item itemvalue="JUnit.LittleTest.test" />
-        <item itemvalue="Spring Boot.PlatApplication" />
-        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.ElTest.testEl" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -136,32 +170,283 @@
       <workItem from="1681264725752" duration="598000" />
       <workItem from="1682411073662" duration="444000" />
       <workItem from="1682411551807" duration="3379000" />
+      <workItem from="1692015180116" duration="972000" />
+      <workItem from="1692016338720" duration="11159000" />
+      <workItem from="1692167564529" duration="8003000" />
+      <workItem from="1692244106541" duration="870000" />
+      <workItem from="1692262147051" duration="7151000" />
+      <workItem from="1692602781692" duration="4353000" />
+      <workItem from="1692793661563" duration="1000" />
+      <workItem from="1692878425462" duration="6371000" />
+      <workItem from="1693228406182" duration="8215000" />
+      <workItem from="1693384887546" duration="6621000" />
+      <workItem from="1693471166059" duration="20000" />
+      <workItem from="1694086202728" duration="4732000" />
+      <workItem from="1694154455383" duration="584000" />
+      <workItem from="1694414489686" duration="1002000" />
     </task>
+    <task id="LOCAL-00001" summary="liteFlow demos">
+      <created>1692015220877</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692015220877</updated>
+    </task>
+    <task id="LOCAL-00002" summary="二叉树遍历">
+      <created>1692153763864</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692153763864</updated>
+    </task>
+    <task id="LOCAL-00003" summary="alghrithm">
+      <created>1693302739227</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693302739228</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test el">
+      <created>1693381804880</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693381804881</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ccc">
+      <created>1694086270905</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694086270908</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="liteFlow demos" />
+    <MESSAGE value="二叉树遍历" />
+    <MESSAGE value="alghrithm" />
+    <MESSAGE value="test el" />
+    <MESSAGE value="ccc" />
+    <option name="LAST_COMMIT_MESSAGE" value="ccc" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1691664794025">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1691667564858">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1691664794025" />
-    <state width="1398" height="173" key="GridCell.Tab.0.bottom" timestamp="1691665259391">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1691667564858" />
+    <state x="133" y="225" width="1078" height="526" key="#xdebugger.evaluate" timestamp="1693400344677">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="173" key="GridCell.Tab.0.bottom/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1691665259391" />
-    <state width="1398" height="173" key="GridCell.Tab.0.center" timestamp="1691665259389">
+    <state x="-643" y="-757" width="742" height="454" key="#xdebugger.evaluate/0.25.1440.875/-1471.-1055.1920.1055@-1471.-1055.1920.1055" timestamp="1692168304483" />
+    <state x="-1471" y="-1055" width="1820" height="1055" key="#xdebugger.evaluate/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1693388264334" />
+    <state x="133" y="225" width="1078" height="526" key="#xdebugger.evaluate/0.25.1440.875@0.25.1440.875" timestamp="1693400344677" />
+    <state x="256" y="31" key="CommitChangelistDialog2" timestamp="1694086270138">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="173" key="GridCell.Tab.0.center/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1691665259389" />
-    <state width="1398" height="173" key="GridCell.Tab.0.left" timestamp="1691665259387">
+    <state x="-1130" y="-1048" key="CommitChangelistDialog2/0.25.1440.875/-1471.-1055.1920.1055@-1471.-1055.1920.1055" timestamp="1693302737643" />
+    <state x="256" y="31" key="CommitChangelistDialog2/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1693381804120" />
+    <state x="256" y="31" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1694086270138" />
+    <state width="533" height="466" key="DebuggerActiveHint" timestamp="1694089402953">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="173" key="GridCell.Tab.0.left/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1691665259387" />
-    <state width="1398" height="173" key="GridCell.Tab.0.right" timestamp="1691665259390">
+    <state width="667" height="562" key="DebuggerActiveHint/0.25.1440.875/-1471.-1055.1920.1055@-1471.-1055.1920.1055" timestamp="1692168419962" />
+    <state width="755" height="556" key="DebuggerActiveHint/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1693388373018" />
+    <state width="533" height="466" key="DebuggerActiveHint/0.25.1440.875@0.25.1440.875" timestamp="1694089402953" />
+    <state x="120" y="98" width="1152" height="700" key="DiffContextDialog" timestamp="1693382418560">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1398" height="173" key="GridCell.Tab.0.right/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1691665259390" />
+    <state x="120" y="98" width="1152" height="700" key="DiffContextDialog/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1693382418560" />
+    <state width="1398" height="334" key="GridCell.Tab.0.bottom" timestamp="1694420872917">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1878" height="87" key="GridCell.Tab.0.bottom/0.25.1440.875/-1471.-1055.1920.1055@-1471.-1055.1920.1055" timestamp="1692168665407" />
+    <state width="1398" height="150" key="GridCell.Tab.0.bottom/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1694154313194" />
+    <state width="1398" height="334" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1694420872917" />
+    <state width="1398" height="334" key="GridCell.Tab.0.center" timestamp="1694420872915">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1878" height="87" key="GridCell.Tab.0.center/0.25.1440.875/-1471.-1055.1920.1055@-1471.-1055.1920.1055" timestamp="1692168665406" />
+    <state width="1398" height="150" key="GridCell.Tab.0.center/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1694154313193" />
+    <state width="1398" height="334" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1694420872915" />
+    <state width="1398" height="334" key="GridCell.Tab.0.left" timestamp="1694420872908">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1878" height="87" key="GridCell.Tab.0.left/0.25.1440.875/-1471.-1055.1920.1055@-1471.-1055.1920.1055" timestamp="1692168665406" />
+    <state width="1398" height="150" key="GridCell.Tab.0.left/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1694154313193" />
+    <state width="1398" height="334" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1694420872908" />
+    <state width="1398" height="334" key="GridCell.Tab.0.right" timestamp="1694420872916">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1878" height="87" key="GridCell.Tab.0.right/0.25.1440.875/-1471.-1055.1920.1055@-1471.-1055.1920.1055" timestamp="1692168665407" />
+    <state width="1398" height="150" key="GridCell.Tab.0.right/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1694154313193" />
+    <state width="1398" height="334" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1694420872916" />
+    <state width="1398" height="69" key="GridCell.Tab.1.bottom" timestamp="1694154313163">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1878" height="87" key="GridCell.Tab.1.bottom/0.25.1440.875/-1471.-1055.1920.1055@-1471.-1055.1920.1055" timestamp="1692168672434" />
+    <state width="1398" height="69" key="GridCell.Tab.1.bottom/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1694154313163" />
+    <state width="1398" height="69" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1694089258222" />
+    <state width="1398" height="69" key="GridCell.Tab.1.center" timestamp="1694154313162">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1878" height="87" key="GridCell.Tab.1.center/0.25.1440.875/-1471.-1055.1920.1055@-1471.-1055.1920.1055" timestamp="1692168672433" />
+    <state width="1398" height="69" key="GridCell.Tab.1.center/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1694154313162" />
+    <state width="1398" height="69" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1694089258221" />
+    <state width="1398" height="69" key="GridCell.Tab.1.left" timestamp="1694154313162">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1878" height="87" key="GridCell.Tab.1.left/0.25.1440.875/-1471.-1055.1920.1055@-1471.-1055.1920.1055" timestamp="1692168672431" />
+    <state width="1398" height="69" key="GridCell.Tab.1.left/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1694154313162" />
+    <state width="1398" height="69" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1694089258221" />
+    <state width="1398" height="69" key="GridCell.Tab.1.right" timestamp="1694154313163">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1878" height="87" key="GridCell.Tab.1.right/0.25.1440.875/-1471.-1055.1920.1055@-1471.-1055.1920.1055" timestamp="1692168672433" />
+    <state width="1398" height="69" key="GridCell.Tab.1.right/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1694154313163" />
+    <state width="1398" height="69" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1694089258222" />
+    <state x="229" y="98" key="SettingsEditor" timestamp="1692262208453">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="229" y="98" key="SettingsEditor/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1692262208453" />
+    <state width="720" height="437" key="XDebugger.FullValuePopup" timestamp="1693471046964">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="720" height="437" key="XDebugger.FullValuePopup/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1693471046964" />
+    <state width="720" height="437" key="XDebugger.FullValuePopup/0.25.1440.875@0.25.1440.875" timestamp="1692156447810" />
+    <state x="-1131" y="-842" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1692168240401">
+      <screen x="-1471" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="-1131" y="-842" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.25.1440.875/-1471.-1055.1920.1055@-1471.-1055.1920.1055" timestamp="1692168240401" />
+    <state x="255" y="202" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.25.1440.875@0.25.1440.875" timestamp="1691675247953" />
+    <state x="420" y="219" width="611" height="486" key="find.popup" timestamp="1693225090226">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="420" y="219" width="611" height="486" key="find.popup/0.25.1440.875@0.25.1440.875" timestamp="1693225090226" />
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup" timestamp="1694086295335">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="-958" y="-827" width="894" height="816" key="search.everywhere.popup/0.25.1440.875/-1471.-1055.1920.1055@-1471.-1055.1920.1055" timestamp="1693302799312" />
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875/-1471.-1055.1920.1055@0.25.1440.875" timestamp="1693385143268" />
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1694086295335" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/yomahub/liteflow-core/2.10.7/liteflow-core-2.10.7.jar!/com/yomahub/liteflow/flow/element/condition/ThenCondition.class</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/yomahub/liteflow-core/2.10.7/liteflow-core-2.10.7.jar!/com/yomahub/liteflow/builder/el/LiteFlowChainELBuilder.class</url>
+          <line>133</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/liteflow-demo-web/src/test/java/org/example/web/LiteFlowTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/yomahub/liteflow-core/2.10.7/liteflow-core-2.10.7.jar!/com/yomahub/liteflow/core/FlowExecutor.class</url>
+          <line>341</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/yomahub/liteflow-core/2.10.7/liteflow-core-2.10.7.jar!/com/yomahub/liteflow/parser/helper/ParserHelper.class</url>
+          <line>196</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/yomahub/liteflow-core/2.10.7/liteflow-core-2.10.7.jar!/com/yomahub/liteflow/builder/el/LiteFlowChainELBuilder.class</url>
+          <line>105</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/QLExpress/3.3.1/QLExpress-3.3.1-sources.jar!/com/ql/util/express/ExpressRunner.java</url>
+          <line>651</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/yomahub/liteflow-core/2.10.7/liteflow-core-2.10.7.jar!/com/yomahub/liteflow/flow/FlowBus.class</url>
+          <line>58</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/yomahub/liteflow-core/2.10.7/liteflow-core-2.10.7.jar!/com/yomahub/liteflow/builder/el/LiteFlowChainELBuilder.class</url>
+          <line>89</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/QLExpress/3.3.1/QLExpress-3.3.1-sources.jar!/com/ql/util/express/parse/ExpressParse.java</url>
+          <line>334</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/QLExpress/3.3.1/QLExpress-3.3.1-sources.jar!/com/ql/util/express/parse/ExpressParse.java</url>
+          <line>330</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/QLExpress/3.3.1/QLExpress-3.3.1-sources.jar!/com/ql/util/express/parse/ExpressParse.java</url>
+          <line>421</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/QLExpress/3.3.1/QLExpress-3.3.1-sources.jar!/com/ql/util/express/parse/ExpressParse.java</url>
+          <line>363</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/QLExpress/3.3.1/QLExpress-3.3.1-sources.jar!/com/ql/util/express/parse/ExpressParse.java</url>
+          <line>411</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/QLExpress/3.3.1/QLExpress-3.3.1-sources.jar!/com/ql/util/express/parse/ExpressParse.java</url>
+          <line>412</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/QLExpress/3.3.1/QLExpress-3.3.1-sources.jar!/com/ql/util/express/ExpressRunner.java</url>
+          <line>688</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/QLExpress/3.3.1/QLExpress-3.3.1-sources.jar!/com/ql/util/express/ExpressRunner.java</url>
+          <line>687</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/liteflow-demo-service/src/main/java/org/example/service/alghrithm/binaryTree/ConstructBinaryTree.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/liteflow-demo-service/src/main/java/org/example/service/alghrithm/binaryTree/BinaryTreePaths.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="com.ql.util.express.parse.ExpressNode" fieldName="originalValue" />
+        <PinnedItemInfo typeName="com.ql.util.express.RunEnvironment" fieldName="instructionSet" />
+        <PinnedItemInfo typeName="com.ql.util.express.match.QLMatchResultTree" fieldName="ref" />
+        <PinnedItemInfo typeName="com.ql.util.express.parse.ExpressPackage" fieldName="packages" />
+        <PinnedItemInfo typeName="com.ql.util.express.match.QLMatchResult" fieldName="matches" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="el" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
